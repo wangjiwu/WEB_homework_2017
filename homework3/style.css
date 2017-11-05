@@ -1,0 +1,224 @@
+
+#bottom-positioner {
+	position: absolute;
+	width:560px;
+	height: 900px;
+	overflow: hidden;  /* Include all the element */
+	margin-left: 27%;
+	margin-top: -30%;
+}
+
+#info-bar {
+	background-color: #A8A8A8;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 9%;
+	opacity: 0; 
+	transition: all 1s ease-out 250ms;
+
+}
+
+#button:hover #info-bar  {
+
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background-color: #A8A8A8;
+	margin: auto auto;
+	position: absolute;
+	left: 41%;
+	bottom: 16%;
+	opacity: 1;
+}
+#at-plus-container ul {
+	list-style: none;
+}
+
+.user {
+	color: #FFFFFF;
+	position: absolute;
+    top:10px;
+    left: 48px;
+	opacity: 1;
+}
+.user span {
+	margin-left: 2px;
+	font-size: 1em;
+}
+
+
+.comment {
+	color: #FFFFFF;
+	position: absolute;
+    top:40px;
+    left: 48px;
+	opacity: 1;
+}
+.comment span {
+	margin-left: 5px;
+	font-size: 1.5em;
+}
+
+
+
+.posted {
+	color: #FFFFFF;
+	position: absolute;
+	left: 19%;
+	bottom: 22%;
+	opacity: 1;
+}
+
+.like {
+	color: #FFFFFF;
+	position: absolute;
+	left: 57%;
+	bottom: 20%;
+	opacity: 1;
+}
+
+
+.mine span {
+	float: right;
+	color: #079E6E;
+	font-size: 1em;
+	margin-left: 4px;
+}
+
+.mask {
+	background: url(assets/images/mask.png) no-repeat 50% 50% #A8A8A8;
+	left: 50%;
+	bottom: 9%;
+	opacity: 0;
+	transition: all 1s ease-out 150ms;  
+	background-size: 50%;
+}
+#button:hover .mask {
+	background: url(assets/images/nomask.png) no-repeat 50% 50% #A8A8A8;
+	background-size: 50%;
+	left: 37%;
+	bottom: 14%;
+	opacity: 1;
+}
+.history {
+	background: url(assets/images/history.png) no-repeat 50% 50% #A8A8A8;
+	left: 50%;
+	bottom: 9%;
+	opacity: 0;
+	transition: all 1s ease-out 150ms;  
+	background-size: 50%;
+}
+#button:hover .history{
+	background: url(assets/images/history.png) no-repeat 50% 50% #A8A8A8;
+	background-size: 50%;
+	left: 35%;
+	bottom: 9%;
+	opacity: 1;
+} 
+
+.message {
+	background: url(assets/images/message.png) no-repeat 50% 50% #A8A8A8;
+	left: 50%;
+	bottom: 9%;
+	opacity: 0;
+	transition: all 1s ease-out 150ms;  
+	background-size: 50%;	
+}
+
+#button:hover .message{
+	background: url(assets/images/message.png) no-repeat 50% 50% #A8A8A8;
+	background-size: 50%;
+	left: 38%;
+	bottom: 4%;
+	opacity: 1;
+} 
+.unread{   
+	position: absolute;
+	left:24px;
+	bottom: 20px;
+	background-color: #FF3030;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+.setting {
+	background: url(assets/images/setting.png) no-repeat 50% 50% #A8A8A8;
+	left: 50%;
+	bottom: 9%;
+	opacity: 0;
+	transition: all 1s ease-out 150ms;  
+	background-size: 50%;	
+}
+
+#button:hover .setting {
+	background: url(assets/images/setting.png) no-repeat 50% 50% #A8A8A8;
+	background-size: 50%;
+	left: 46%;
+	bottom: 1%;
+	opacity: 1;
+} 
+
+.sign {
+	background: url(assets/images/signout.png) no-repeat 50% 50% #A8A8A8;
+	left: 50%;
+	bottom: 9%;
+	opacity: 0;
+	transition: all 1s ease-out 150ms;  
+	background-size: 50%;	
+}
+
+#button:hover .sign {
+	background: url(assets/images/signout.png) no-repeat 50% 50% #A8A8A8;
+	background-size: 50%;
+	left: 56%;
+	bottom: 2%;
+	opacity: 1;
+}
+
+.button  {
+	background-color: #A8A8A8;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.apb {
+
+	
+}
+
+.apb {
+	background: url(assets/images/atplus_white.png) no-repeat 50% 50% #CD96CD;
+	background-size: 70%;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 9%;
+	opacity: 1;
+	transition: all 0.5s ease-out 150ms;  
+}
+#button:hover .apb{
+	background-image: url(assets/images/atplus_green.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 80%;
+	background-color: #303F9F;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: 9%;
+	transform: scale(1.5);
+}
+

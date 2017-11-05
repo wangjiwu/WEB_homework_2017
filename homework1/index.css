@@ -1,0 +1,86 @@
+img {
+  margin : 0.25in;
+}
+h1 {
+  text-align: center;
+  size: 33pt;
+  color: #A4A400 ;
+  font-family: Century Gothic, Futura, Verdana, sans-serif;
+  text-decoration: underline;
+  margin : 0.25in;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: left;
+  size: 22pt;
+  font-family: Century Gothic, Futura, Verdana, sans-serif;
+  color: #A4A400 ;
+  text-decoration: underline;
+  margin : 0.25in;
+  font-weight: normal;
+}
+
+
+ul
+{
+	list-style-type:none;
+	margin:0.25in;
+	padding:0;
+	overflow:hidden;
+}
+li
+{
+	float:left;
+}
+li>a:link,a:visited
+{
+	display:block;
+	width: 160px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#bebebe;
+	text-align:center;
+	padding:5px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+a:hover,a:active
+{
+	background-color:#cc0000;
+}
+
+body {
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505284002406&di=04f715457b330fa6c4b05a6a9a78ba3d&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fu%2F00%2F05%2F85%2F81%2F561f3e25912b4.jpg");
+}
+
+
+
+div.img
+{
+  margin:0.25in;
+  border:1px solid #bebebe;
+  height:auto;
+  width:auto;
+  float:left;
+  text-align:center;
+}
+div.img img
+{
+  display:inline;
+  margin:3px;
+  border:1px solid #bebebe;
+}
+div.img a:hover img
+{
+  border:1px solid #333333;
+}
+div.desc
+{
+  text-align:center;
+  font-weight:normal;
+  width:150px;
+  font-size:12px;
+  margin:10px 5px 10px 5px;
+}
+

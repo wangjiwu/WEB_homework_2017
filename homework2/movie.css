@@ -1,0 +1,158 @@
+
+body {
+	background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000);
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif; 
+	text-align: center;
+}
+
+dl { 
+	font-size: 8pt;
+	margin: 0;
+}
+
+
+#banner {
+    background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000);
+    text-align: center;
+}
+
+
+#Allcontent {
+	border-width: 4px;
+	border-style: solid;
+	border-color: gray;
+	width: 800px;
+    margin: auto auto;
+    width: 800px;
+    overflow: hidden;
+}
+
+
+#imgRight {
+	background-color: #A2B964;
+	float: right;
+	width: 250px;
+	right: 0px;
+}
+
+dl {
+	margin-top: 1em;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+
+#rotton {
+	position: relative;
+	height: 83px;
+	background-image: url(http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000);	
+	background-repeat: repeat-x;
+	margin-bottom: 2%;
+}
+
+#rating {
+	position: relative;
+	bottom: 10px;
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	margin-bottom: 0.3in;
+}
+#review {
+	position: relative;
+	bottom: 10px;
+	color: white;
+	font-size: 8pt;
+}
+
+#reviewLeft {
+	width: 550px;
+	margin: 0;
+	border: 0;
+}
+
+
+/*/////////////////////////////////////////////*/
+
+#reviewColLeft {
+	margin-left: 2%;
+	width: 47%;
+	float: left;
+}
+
+#reviewColRight {
+	margin-right: 2%;
+	width: 47%;
+	float: right;
+}
+
+.indivView {
+	background-color: #E1D697;
+	border-color: gray;
+	border-style: solid;
+	border-width: 2px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.indivView p {
+	padding: 0;
+	margin: 0;
+}
+
+.indivView q {
+	font-size: 8pt;
+	font-weight: bold;
+
+}
+.indivView img {
+	float: left;
+	margin-right: 5px;
+}
+
+.personInfo {
+	margin-bottom: 3em;
+	overflow: hidden;
+}
+
+.personInfo img {
+	float: left;
+	margin-right: 5px;
+}
+
+.publication {
+	font-style: italic;
+}
+
+/*/////////////////////////////////////////////*/
+
+
+#pageNum {
+	clear: right;
+	text-align: center;
+	background-color: #A2B964;
+	margin: 0;
+	padding: 5px;
+}
+
+#link {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}

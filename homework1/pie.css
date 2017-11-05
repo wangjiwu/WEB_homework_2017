@@ -1,0 +1,82 @@
+
+p {
+	margin-left: 20px;
+}
+body {
+	background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+	background-attachment:fixed
+	color: #404040;
+	size: 11pt ;
+	font-family: Georgia, Garamond ,sans-serif;
+}
+
+h1 {
+	text-align: center;
+	size: 22pt;
+	color: #A4A400 ;
+	font-family: Century Gothic, Futura, Verdana, sans-serif;
+	text-decoration: underline;
+	background-color:  #F0F0F0;
+	margin : 0.25in;
+	font-weight: bold;
+	letter-spacing: 0.2em；
+
+}
+
+ul 
+{
+	list-style-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif");
+}
+
+img {
+	
+}
+hr {
+	padding-left : 0.25in;
+}
+li {
+	margin-left : 0.25in;
+}
+
+h2 {
+	text-align: left;
+	size: 18pt;
+	font-family: Century Gothic, Futura, Verdana, sans-serif;
+	color: #A4A400 ;
+	text-decoration: underline;
+	background-color:  #F0F0F0;
+	margin : 0.25in;
+	font-weight: normal;
+}
+
+hr {
+	margin-left: 0.25in;
+	margin-right: 0.25in;
+}
+
+a {
+	size: 18pt;
+	color: #A4A400 ;
+	margin-left: 0.25in;
+
+}
+
+#yellow {
+	background-color:  #FFFFC8; 
+	font-style: italic ;
+	margin-top:  0.25in;
+	margin-bottom: 0.25in;
+	margin-left: 0.50in;
+	margin-right: 0.50in;
+}
+#img1 {
+	margin-left : 0.25in;
+}
+#img2 {
+	margin-left : 0in;
+}
+/*
+div {
+	margin : 0.25in;
+}
+*/
